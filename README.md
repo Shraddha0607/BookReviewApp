@@ -70,7 +70,7 @@ Users can click the **"Add Review"** button to write and submit their review alo
 - .NET Core Web API (Backend)
 - Entity Framework Core (ORM)
 - SQL Server (Database)
-- Bootstrap / HTML / CSS (Frontend)
+- React / Bootstrap / HTML / CSS (Frontend)
 - Postman for API testing
 
 ---
