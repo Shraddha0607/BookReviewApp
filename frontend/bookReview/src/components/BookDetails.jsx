@@ -124,7 +124,7 @@ function BookDetails({ bookId, setIsSpecificBook }) {
         <>
             {isLoading && <p>Please wait! Data is fetching</p>}
             {!isLoading && <section id="book-section">
-                <div class="container mb-2">
+                <div class="container mb-2" id = "book">
                     <div>
                         <h1>{book.name}</h1>
                         <h3>{ratingStar}</h3>
@@ -133,12 +133,12 @@ function BookDetails({ bookId, setIsSpecificBook }) {
                         <h2 >About</h2>
                         <p >{book.about}</p>
                     </div>
-                    <button class="btn btn-secondary btn-sm mb-2" onClick={onRatingOpenClick}>Add your Review</button>
+                    <button  onClick={onRatingOpenClick}>Add your Review</button>
                     {ratingSectionOpen && ratingSection}
 
                 </div>
 
-                <button class="btn btn-secondary btn-sm" onClick={onBackClick}>Back to previous</button>
+                <button onClick={onBackClick}>Back to previous</button>
             </section>}
         </>
 
